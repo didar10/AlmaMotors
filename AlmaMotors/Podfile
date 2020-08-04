@@ -1,0 +1,45 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Apple Motors Car Parts' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AppleMotorsSellerApp
+    pod 'Firebase/Analytics'
+    pod 'Firebase/Core'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Firestore'
+    pod 'Firebase/Storage'
+    pod 'GeoFire'
+    pod 'Gallery'
+    pod 'NVActivityIndicatorView/AppExtension'
+    pod 'JGProgressHUD'
+    pod 'EmptyDataSet-Swift'
+    pod 'Mapbox-iOS-SDK', '~> 5.8'
+    pod 'GoogleSignIn'
+    pod 'InstantSearchClient'
+
+end
+
+target 'AppleMotorsCustomerApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AppleMotorsCustomerApp
+    pod 'Firebase/Analytics'
+    pod 'Firebase/Core'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Firestore'
+    pod 'Firebase/Storage'
+    pod 'CodableFirebase'
+    pod 'GeoFire'
+    pod 'Gallery'
+    pod 'NVActivityIndicatorView/AppExtension'
+    pod 'JGProgressHUD'
+    pod 'EmptyDataSet-Swift'
+    pod 'Mapbox-iOS-SDK', '~> 5.8'
+    pod 'GoogleSignIn'
+    pod 'InstantSearchClient'
+
+end

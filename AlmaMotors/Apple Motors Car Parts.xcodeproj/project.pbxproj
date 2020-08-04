@@ -1,0 +1,1017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191CCEB42C4951B7C50E8F45 /* Pods_AppleMotorsCustomerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AB4BB240F933BD138FCD91 /* Pods_AppleMotorsCustomerApp.framework */; };
+		60D27976E829D03F51B3196D /* Pods_Apple_Motors_Car_Parts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49413F34F49111238B8B786B /* Pods_Apple_Motors_Car_Parts.framework */; };
+		A94260F4246BFCAF00AFE93F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94260F3246BFCAF00AFE93F /* WelcomeViewController.swift */; };
+		A94260F6246C140A00AFE93F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94260F5246C140A00AFE93F /* SceneDelegate.swift */; };
+		A9452E74247E963C00C19920 /* UserInfoTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9452E73247E963C00C19920 /* UserInfoTab.swift */; };
+		A9452E76247E97DE00C19920 /* AnnotationPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9452E75247E97DE00C19920 /* AnnotationPin.swift */; };
+		A9452E79247E98F700C19920 /* MGLMapDelegate+ Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9452E78247E98F700C19920 /* MGLMapDelegate+ Extension.swift */; };
+		A9452E7B247EB39A00C19920 /* ScrollToSelectedUserProtocol + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9452E7A247EB39A00C19920 /* ScrollToSelectedUserProtocol + Extension.swift */; };
+		A9452E7D247EB4C800C19920 /* FriendAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9452E7C247EB4C800C19920 /* FriendAnnotationView.swift */; };
+		A95DF03624D9443100263C13 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A95DF03524D9443100263C13 /* GoogleService-Info.plist */; };
+		A97640C32468078D0053FB48 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97640C22468078D0053FB48 /* MainTabBarController.swift */; };
+		A97640C5246808650053FB48 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97640C4246808650053FB48 /* TabBar.storyboard */; };
+		A97640C7246812C80053FB48 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97640C6246812C80053FB48 /* ProfileTableViewController.swift */; };
+		A9A4C985246A903F000E8635 /* Seller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBADBE2464492E00BE48CD /* Seller.swift */; };
+		A9A4C987246A9120000E8635 /* SellerInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4C986246A9120000E8635 /* SellerInfoTableViewCell.swift */; };
+		A9A4C988246AB249000E8635 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBADC024644A6100BE48CD /* Constants.swift */; };
+		A9A4C989246AB260000E8635 /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBADC2246466D400BE48CD /* FirebaseCollectionReference.swift */; };
+		A9A4C98B246ABBDB000E8635 /* MapsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4C98A246ABBDB000E8635 /* MapsVC.swift */; };
+		A9A4C98D246ADD31000E8635 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4C98C246ADD31000E8635 /* Category.swift */; };
+		A9A4C98F246ADD3F000E8635 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4C98E246ADD3F000E8635 /* Item.swift */; };
+		A9A4C992246ADEB4000E8635 /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4C991246ADEB4000E8635 /* CategoryCollectionViewController.swift */; };
+		A9A4C994246ADED1000E8635 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4C993246ADED1000E8635 /* CategoryCollectionViewCell.swift */; };
+		A9AEB927247E66330037A1CE /* MainPageState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AEB926247E66330037A1CE /* MainPageState.swift */; };
+		A9B5A0A324D9527D009D113C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9B5A0A224D9527D009D113C /* GoogleService-Info.plist */; };
+		A9BC6229246B0ECB0027D5FA /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC6228246B0ECB0027D5FA /* ItemsTableViewController.swift */; };
+		A9BC622B246B0F5F0027D5FA /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC622A246B0F5F0027D5FA /* ItemTableViewCell.swift */; };
+		A9BC622D246B0F9A0027D5FA /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC622C246B0F9A0027D5FA /* Downloader.swift */; };
+		A9BC622F246B0FB20027D5FA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC622E246B0FB20027D5FA /* Reachability.swift */; };
+		A9BC6231246B0FE40027D5FA /* DetailItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BC6230246B0FE40027D5FA /* DetailItem.storyboard */; };
+		A9BC6233246B101F0027D5FA /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC6232246B101F0027D5FA /* AddItemViewController.swift */; };
+		A9BC6235246B10590027D5FA /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC6234246B10590027D5FA /* ItemViewController.swift */; };
+		A9BC6237246B10870027D5FA /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC6236246B10870027D5FA /* ImageCollectionViewCell.swift */; };
+		A9C2D7C9248136D7002E0451 /* ThumbSlidingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C2D7C8248136D7002E0451 /* ThumbSlidingView.swift */; };
+		A9C2D7CB248136FB002E0451 /* ConstantsTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C2D7CA248136FB002E0451 /* ConstantsTwo.swift */; };
+		A9C2D7CD2481370D002E0451 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C2D7CC2481370D002E0451 /* UIColorExtension.swift */; };
+		A9C2D7CF2481372C002E0451 /* SlideUpSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C2D7CE2481372C002E0451 /* SlideUpSettings.swift */; };
+		A9C2D7D124813737002E0451 /* AccountItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C2D7D024813737002E0451 /* AccountItemCell.swift */; };
+		A9C2D7D324813743002E0451 /* SettingsSlideUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C2D7D224813743002E0451 /* SettingsSlideUpController.swift */; };
+		A9D58F5A24826C3B00105F68 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A4C98E246ADD3F000E8635 /* Item.swift */; };
+		A9D58F5E2482806F00105F68 /* SellerInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D58F5D2482806F00105F68 /* SellerInfoCell.swift */; };
+		A9D58F6024828CC900105F68 /* SellerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D58F5F24828CC900105F68 /* SellerInfoView.swift */; };
+		A9D58F642482940200105F68 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D58F632482940200105F68 /* SearchViewController.swift */; };
+		A9D58F652482B5A500105F68 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC622A246B0F5F0027D5FA /* ItemTableViewCell.swift */; };
+		A9D58F662482B5CA00105F68 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC622C246B0F9A0027D5FA /* Downloader.swift */; };
+		A9D58F672482B5E100105F68 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC622E246B0FB20027D5FA /* Reachability.swift */; };
+		A9D58F682482B90600105F68 /* DetailItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BC6230246B0FE40027D5FA /* DetailItem.storyboard */; };
+		A9D58F692482B94900105F68 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC6234246B10590027D5FA /* ItemViewController.swift */; };
+		A9D58F6A2482F69B00105F68 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC6236246B10870027D5FA /* ImageCollectionViewCell.swift */; };
+		A9D58F6C2483062F00105F68 /* AlgoliaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D58F6B2483062F00105F68 /* AlgoliaService.swift */; };
+		A9D58F6D24830DA700105F68 /* AlgoliaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D58F6B2483062F00105F68 /* AlgoliaService.swift */; };
+		A9DC68172485BD79000240D2 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC68162485BD79000240D2 /* ProductModel.swift */; };
+		A9DC68192485BF42000240D2 /* ProductsServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC68182485BF42000240D2 /* ProductsServiceProtocol.swift */; };
+		A9DC681B2485BFB7000240D2 /* ProductsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC681A2485BFB7000240D2 /* ProductsService.swift */; };
+		A9DC681D2485C18C000240D2 /* Fire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC681C2485C18C000240D2 /* Fire.swift */; };
+		A9DC681F2485C1FC000240D2 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC681E2485C1FC000240D2 /* ProductsViewModel.swift */; };
+		A9DC68212485C668000240D2 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC68202485C668000240D2 /* ProductsTableViewController.swift */; };
+		A9DC68232485CB13000240D2 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC68222485CB12000240D2 /* ProductTableViewCell.swift */; };
+		A9E500E124727AA900EBD0C2 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E500E024727AA900EBD0C2 /* CardViewController.xib */; };
+		A9E500E524727B4B00EBD0C2 /* SellerInfoTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E500E424727B4B00EBD0C2 /* SellerInfoTab.swift */; };
+		A9F096892469D5310006AD22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F096882469D5310006AD22 /* AppDelegate.swift */; };
+		A9F0968B2469D5310006AD22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F0968A2469D5310006AD22 /* SceneDelegate.swift */; };
+		A9F096902469D5310006AD22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F0968E2469D5310006AD22 /* Main.storyboard */; };
+		A9F096922469D5320006AD22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F096912469D5320006AD22 /* Assets.xcassets */; };
+		A9F096952469D5320006AD22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F096932469D5320006AD22 /* LaunchScreen.storyboard */; };
+		A9F0969B2469D6640006AD22 /* SellerInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F0969A2469D6640006AD22 /* SellerInfoTableViewController.swift */; };
+		A9FA5A712463179D0015B705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA5A702463179D0015B705 /* AppDelegate.swift */; };
+		A9FA5A782463179D0015B705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA5A762463179D0015B705 /* Main.storyboard */; };
+		A9FA5A7A246317A10015B705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA5A79246317A10015B705 /* Assets.xcassets */; };
+		A9FA5A7D246317A10015B705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA5A7B246317A10015B705 /* LaunchScreen.storyboard */; };
+		A9FBADBF2464492E00BE48CD /* Seller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBADBE2464492E00BE48CD /* Seller.swift */; };
+		A9FBADC124644A6100BE48CD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBADC024644A6100BE48CD /* Constants.swift */; };
+		A9FBADC3246466D400BE48CD /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBADC2246466D400BE48CD /* FirebaseCollectionReference.swift */; };
+		A9FBADC524649F2A00BE48CD /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBADC424649F2A00BE48CD /* RegistrationViewController.swift */; };
+		A9FBADC724649F5C00BE48CD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBADC624649F5C00BE48CD /* MapViewController.swift */; };
+		A9FBADCB2464B30200BE48CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBADCA2464B30200BE48CD /* LoginViewController.swift */; };
+		A9FBB77D246EBE0600616721 /* MapsNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FBB77C246EBE0600616721 /* MapsNetworking.swift */; };
+		A9FCDB2E2483E87100D566E0 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCDB2D2483E87100D566E0 /* FavouritesViewController.swift */; };
+		A9FCDB302483E8C000D566E0 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCDB2F2483E8C000D566E0 /* ProfileTableViewController.swift */; };
+		A9FCDB332483EF7900D566E0 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCDB322483EF7900D566E0 /* Customer.swift */; };
+		A9FCDB352484047500D566E0 /* FinishRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCDB342484047500D566E0 /* FinishRegistrationViewController.swift */; };
+		A9FCDB37248404BD00D566E0 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCDB36248404BD00D566E0 /* AuthorizationViewController.swift */; };
+		A9FCDB39248404D500D566E0 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCDB38248404D500D566E0 /* EditProfileViewController.swift */; };
+		A9FCDB3B2484463200D566E0 /* Favourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCDB3A2484463200D566E0 /* Favourites.swift */; };
+		A9FCDB3D248484DD00D566E0 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCDB322483EF7900D566E0 /* Customer.swift */; };
+		A9FCDB3E248484F700D566E0 /* Favourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCDB3A2484463200D566E0 /* Favourites.swift */; };
+		A9FCDB402484875B00D566E0 /* CustomerMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FCDB3F2484875B00D566E0 /* CustomerMainTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06AB4BB240F933BD138FCD91 /* Pods_AppleMotorsCustomerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleMotorsCustomerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49413F34F49111238B8B786B /* Pods_Apple_Motors_Car_Parts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apple_Motors_Car_Parts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63057C74EA5E7A2E9CBCFB52 /* Pods-AppleMotorsCustomerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMotorsCustomerApp.debug.xcconfig"; path = "Target Support Files/Pods-AppleMotorsCustomerApp/Pods-AppleMotorsCustomerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6A42A9A1CB88031CF55159E6 /* Pods-AppleMotorsCustomerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMotorsCustomerApp.release.xcconfig"; path = "Target Support Files/Pods-AppleMotorsCustomerApp/Pods-AppleMotorsCustomerApp.release.xcconfig"; sourceTree = "<group>"; };
+		6F2876886C61F16BD00B979E /* Pods-AppleMotorsSellerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMotorsSellerApp.release.xcconfig"; path = "Target Support Files/Pods-AppleMotorsSellerApp/Pods-AppleMotorsSellerApp.release.xcconfig"; sourceTree = "<group>"; };
+		A94260F3246BFCAF00AFE93F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A94260F5246C140A00AFE93F /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A9452E73247E963C00C19920 /* UserInfoTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoTab.swift; sourceTree = "<group>"; };
+		A9452E75247E97DE00C19920 /* AnnotationPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationPin.swift; sourceTree = "<group>"; };
+		A9452E78247E98F700C19920 /* MGLMapDelegate+ Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MGLMapDelegate+ Extension.swift"; sourceTree = "<group>"; };
+		A9452E7A247EB39A00C19920 /* ScrollToSelectedUserProtocol + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollToSelectedUserProtocol + Extension.swift"; sourceTree = "<group>"; };
+		A9452E7C247EB4C800C19920 /* FriendAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendAnnotationView.swift; sourceTree = "<group>"; };
+		A95DF03524D9443100263C13 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A97640C22468078D0053FB48 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A97640C4246808650053FB48 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		A97640C6246812C80053FB48 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		A9A4C986246A9120000E8635 /* SellerInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerInfoTableViewCell.swift; sourceTree = "<group>"; };
+		A9A4C98A246ABBDB000E8635 /* MapsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsVC.swift; sourceTree = "<group>"; };
+		A9A4C98C246ADD31000E8635 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A9A4C98E246ADD3F000E8635 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A9A4C991246ADEB4000E8635 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		A9A4C993246ADED1000E8635 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9AEB926247E66330037A1CE /* MainPageState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageState.swift; sourceTree = "<group>"; };
+		A9B5A0A224D9527D009D113C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A9BC6228246B0ECB0027D5FA /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		A9BC622A246B0F5F0027D5FA /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		A9BC622C246B0F9A0027D5FA /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		A9BC622E246B0FB20027D5FA /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		A9BC6230246B0FE40027D5FA /* DetailItem.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailItem.storyboard; sourceTree = "<group>"; };
+		A9BC6232246B101F0027D5FA /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		A9BC6234246B10590027D5FA /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		A9BC6236246B10870027D5FA /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9C2D7C8248136D7002E0451 /* ThumbSlidingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbSlidingView.swift; sourceTree = "<group>"; };
+		A9C2D7CA248136FB002E0451 /* ConstantsTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTwo.swift; sourceTree = "<group>"; };
+		A9C2D7CC2481370D002E0451 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		A9C2D7CE2481372C002E0451 /* SlideUpSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideUpSettings.swift; sourceTree = "<group>"; };
+		A9C2D7D024813737002E0451 /* AccountItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountItemCell.swift; sourceTree = "<group>"; };
+		A9C2D7D224813743002E0451 /* SettingsSlideUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSlideUpController.swift; sourceTree = "<group>"; };
+		A9D58F5D2482806F00105F68 /* SellerInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerInfoCell.swift; sourceTree = "<group>"; };
+		A9D58F5F24828CC900105F68 /* SellerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerInfoView.swift; sourceTree = "<group>"; };
+		A9D58F632482940200105F68 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A9D58F6B2483062F00105F68 /* AlgoliaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoliaService.swift; sourceTree = "<group>"; };
+		A9DC68162485BD79000240D2 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		A9DC68182485BF42000240D2 /* ProductsServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsServiceProtocol.swift; sourceTree = "<group>"; };
+		A9DC681A2485BFB7000240D2 /* ProductsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsService.swift; sourceTree = "<group>"; };
+		A9DC681C2485C18C000240D2 /* Fire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fire.swift; sourceTree = "<group>"; };
+		A9DC681E2485C1FC000240D2 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		A9DC68202485C668000240D2 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		A9DC68222485CB12000240D2 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		A9E500E024727AA900EBD0C2 /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		A9E500E424727B4B00EBD0C2 /* SellerInfoTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerInfoTab.swift; sourceTree = "<group>"; };
+		A9F096862469D5310006AD22 /* AppleMotorsCustomerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMotorsCustomerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F096882469D5310006AD22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9F0968A2469D5310006AD22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A9F0968F2469D5310006AD22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9F096912469D5320006AD22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9F096942469D5320006AD22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9F096962469D5320006AD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F0969A2469D6640006AD22 /* SellerInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerInfoTableViewController.swift; sourceTree = "<group>"; };
+		A9FA5A6D2463179D0015B705 /* Apple Motors Car Parts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Motors Car Parts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FA5A702463179D0015B705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9FA5A772463179D0015B705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9FA5A79246317A10015B705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9FA5A7C246317A10015B705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9FA5A7E246317A10015B705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FBADBE2464492E00BE48CD /* Seller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seller.swift; sourceTree = "<group>"; };
+		A9FBADC024644A6100BE48CD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A9FBADC2246466D400BE48CD /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
+		A9FBADC424649F2A00BE48CD /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		A9FBADC624649F5C00BE48CD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A9FBADCA2464B30200BE48CD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A9FBB77C246EBE0600616721 /* MapsNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsNetworking.swift; sourceTree = "<group>"; };
+		A9FCDB2D2483E87100D566E0 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		A9FCDB2F2483E8C000D566E0 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		A9FCDB322483EF7900D566E0 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		A9FCDB342484047500D566E0 /* FinishRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationViewController.swift; sourceTree = "<group>"; };
+		A9FCDB36248404BD00D566E0 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		A9FCDB38248404D500D566E0 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		A9FCDB3A2484463200D566E0 /* Favourites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourites.swift; sourceTree = "<group>"; };
+		A9FCDB3F2484875B00D566E0 /* CustomerMainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMainTabBarController.swift; sourceTree = "<group>"; };
+		BAD3ADA5C3733EC2F7583FFD /* Pods-Apple Motors Car Parts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apple Motors Car Parts.release.xcconfig"; path = "Target Support Files/Pods-Apple Motors Car Parts/Pods-Apple Motors Car Parts.release.xcconfig"; sourceTree = "<group>"; };
+		BC934017034D4E66E3E7B3DD /* Pods-AppleMotorsSellerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMotorsSellerApp.debug.xcconfig"; path = "Target Support Files/Pods-AppleMotorsSellerApp/Pods-AppleMotorsSellerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CCE2627541D8C3BF3C4FE51B /* Pods-Apple Motors Car Parts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apple Motors Car Parts.debug.xcconfig"; path = "Target Support Files/Pods-Apple Motors Car Parts/Pods-Apple Motors Car Parts.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9F096832469D5310006AD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191CCEB42C4951B7C50E8F45 /* Pods_AppleMotorsCustomerApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FA5A6A2463179D0015B705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D27976E829D03F51B3196D /* Pods_Apple_Motors_Car_Parts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FB2040F1FEEDB44284B6432 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC934017034D4E66E3E7B3DD /* Pods-AppleMotorsSellerApp.debug.xcconfig */,
+				6F2876886C61F16BD00B979E /* Pods-AppleMotorsSellerApp.release.xcconfig */,
+				63057C74EA5E7A2E9CBCFB52 /* Pods-AppleMotorsCustomerApp.debug.xcconfig */,
+				6A42A9A1CB88031CF55159E6 /* Pods-AppleMotorsCustomerApp.release.xcconfig */,
+				CCE2627541D8C3BF3C4FE51B /* Pods-Apple Motors Car Parts.debug.xcconfig */,
+				BAD3ADA5C3733EC2F7583FFD /* Pods-Apple Motors Car Parts.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C8398F24BE47ECFC543EBA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06AB4BB240F933BD138FCD91 /* Pods_AppleMotorsCustomerApp.framework */,
+				49413F34F49111238B8B786B /* Pods_Apple_Motors_Car_Parts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9452E6E247E935D00C19920 /* table state */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0969A2469D6640006AD22 /* SellerInfoTableViewController.swift */,
+				A9A4C986246A9120000E8635 /* SellerInfoTableViewCell.swift */,
+				A9AEB926247E66330037A1CE /* MainPageState.swift */,
+				A9E500E424727B4B00EBD0C2 /* SellerInfoTab.swift */,
+				A9E500E024727AA900EBD0C2 /* CardViewController.xib */,
+			);
+			path = "table state";
+			sourceTree = "<group>";
+		};
+		A9A4C990246ADD62000E8635 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9A4C98C246ADD31000E8635 /* Category.swift */,
+				A9A4C98E246ADD3F000E8635 /* Item.swift */,
+				A9FBADBE2464492E00BE48CD /* Seller.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9B1E9602466DBBF00856EF9 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				A9FBADCA2464B30200BE48CD /* LoginViewController.swift */,
+				A9FBADC424649F2A00BE48CD /* RegistrationViewController.swift */,
+				A9FBADC624649F5C00BE48CD /* MapViewController.swift */,
+				A94260F3246BFCAF00AFE93F /* WelcomeViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		A9B1E9612466DBFD00856EF9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A9FBADC024644A6100BE48CD /* Constants.swift */,
+				A9FBADC2246466D400BE48CD /* FirebaseCollectionReference.swift */,
+				A9BC622C246B0F9A0027D5FA /* Downloader.swift */,
+				A9BC622E246B0FB20027D5FA /* Reachability.swift */,
+				A9D58F6B2483062F00105F68 /* AlgoliaService.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A9BC6238246B110B0027D5FA /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				A97640C22468078D0053FB48 /* MainTabBarController.swift */,
+				A9A4C991246ADEB4000E8635 /* CategoryCollectionViewController.swift */,
+				A9BC6228246B0ECB0027D5FA /* ItemsTableViewController.swift */,
+				A9BC6232246B101F0027D5FA /* AddItemViewController.swift */,
+				A9BC6234246B10590027D5FA /* ItemViewController.swift */,
+				A97640C6246812C80053FB48 /* ProfileTableViewController.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		A9BC6239246B11230027D5FA /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A9A4C993246ADED1000E8635 /* CategoryCollectionViewCell.swift */,
+				A9BC622A246B0F5F0027D5FA /* ItemTableViewCell.swift */,
+				A9BC6236246B10870027D5FA /* ImageCollectionViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		A9C2D7C324813663002E0451 /* SlideUP */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2D7C424813696002E0451 /* Helper */,
+				A9C2D7CE2481372C002E0451 /* SlideUpSettings.swift */,
+				A9C2D7D024813737002E0451 /* AccountItemCell.swift */,
+				A9C2D7D224813743002E0451 /* SettingsSlideUpController.swift */,
+				A9C2D7C8248136D7002E0451 /* ThumbSlidingView.swift */,
+				A9D58F5D2482806F00105F68 /* SellerInfoCell.swift */,
+				A9D58F5F24828CC900105F68 /* SellerInfoView.swift */,
+			);
+			path = SlideUP;
+			sourceTree = "<group>";
+		};
+		A9C2D7C424813696002E0451 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2D7CA248136FB002E0451 /* ConstantsTwo.swift */,
+				A9C2D7CC2481370D002E0451 /* UIColorExtension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A9DC68152485BD3B000240D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC68162485BD79000240D2 /* ProductModel.swift */,
+				A9DC68182485BF42000240D2 /* ProductsServiceProtocol.swift */,
+				A9DC681A2485BFB7000240D2 /* ProductsService.swift */,
+				A9DC681C2485C18C000240D2 /* Fire.swift */,
+				A9DC681E2485C1FC000240D2 /* ProductsViewModel.swift */,
+				A9DC68202485C668000240D2 /* ProductsTableViewController.swift */,
+				A9DC68222485CB12000240D2 /* ProductTableViewCell.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		A9F096872469D5310006AD22 /* AppleMotorsCustomerApp */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC68152485BD3B000240D2 /* Products */,
+				A9F096882469D5310006AD22 /* AppDelegate.swift */,
+				A9F0968A2469D5310006AD22 /* SceneDelegate.swift */,
+				A9FCDB312483EF5B00D566E0 /* MainViews */,
+				A9452E6E247E935D00C19920 /* table state */,
+				A9C2D7C324813663002E0451 /* SlideUP */,
+				A9FBB77E246EC3A900616721 /* Map */,
+				A9FCDB3C2484464000D566E0 /* Model */,
+				A9F0968E2469D5310006AD22 /* Main.storyboard */,
+				A9F096912469D5320006AD22 /* Assets.xcassets */,
+				A9F096932469D5320006AD22 /* LaunchScreen.storyboard */,
+				A9F096962469D5320006AD22 /* Info.plist */,
+				A9B5A0A224D9527D009D113C /* GoogleService-Info.plist */,
+			);
+			path = AppleMotorsCustomerApp;
+			sourceTree = "<group>";
+		};
+		A9FA5A642463179D0015B705 = {
+			isa = PBXGroup;
+			children = (
+				A9FA5A6F2463179D0015B705 /* AppleMotorsSellerApp */,
+				A9F096872469D5310006AD22 /* AppleMotorsCustomerApp */,
+				A9FA5A6E2463179D0015B705 /* Products */,
+				2FB2040F1FEEDB44284B6432 /* Pods */,
+				9C8398F24BE47ECFC543EBA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9FA5A6E2463179D0015B705 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA5A6D2463179D0015B705 /* Apple Motors Car Parts.app */,
+				A9F096862469D5310006AD22 /* AppleMotorsCustomerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9FA5A6F2463179D0015B705 /* AppleMotorsSellerApp */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA5A702463179D0015B705 /* AppDelegate.swift */,
+				A94260F5246C140A00AFE93F /* SceneDelegate.swift */,
+				A9BC6238246B110B0027D5FA /* MainViews */,
+				A9BC6239246B11230027D5FA /* Custom Cells */,
+				A9B1E9602466DBBF00856EF9 /* Authentication */,
+				A9A4C990246ADD62000E8635 /* Model */,
+				A9B1E9612466DBFD00856EF9 /* Helpers */,
+				A9FA5A762463179D0015B705 /* Main.storyboard */,
+				A97640C4246808650053FB48 /* TabBar.storyboard */,
+				A9BC6230246B0FE40027D5FA /* DetailItem.storyboard */,
+				A9FA5A7B246317A10015B705 /* LaunchScreen.storyboard */,
+				A9FA5A79246317A10015B705 /* Assets.xcassets */,
+				A9FA5A7E246317A10015B705 /* Info.plist */,
+				A95DF03524D9443100263C13 /* GoogleService-Info.plist */,
+			);
+			path = AppleMotorsSellerApp;
+			sourceTree = "<group>";
+		};
+		A9FBB77E246EC3A900616721 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A9A4C98A246ABBDB000E8635 /* MapsVC.swift */,
+				A9FBB77C246EBE0600616721 /* MapsNetworking.swift */,
+				A9452E7A247EB39A00C19920 /* ScrollToSelectedUserProtocol + Extension.swift */,
+				A9452E73247E963C00C19920 /* UserInfoTab.swift */,
+				A9452E75247E97DE00C19920 /* AnnotationPin.swift */,
+				A9452E78247E98F700C19920 /* MGLMapDelegate+ Extension.swift */,
+				A9452E7C247EB4C800C19920 /* FriendAnnotationView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		A9FCDB312483EF5B00D566E0 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				A9D58F632482940200105F68 /* SearchViewController.swift */,
+				A9FCDB2D2483E87100D566E0 /* FavouritesViewController.swift */,
+				A9FCDB2F2483E8C000D566E0 /* ProfileTableViewController.swift */,
+				A9FCDB342484047500D566E0 /* FinishRegistrationViewController.swift */,
+				A9FCDB36248404BD00D566E0 /* AuthorizationViewController.swift */,
+				A9FCDB38248404D500D566E0 /* EditProfileViewController.swift */,
+				A9FCDB3F2484875B00D566E0 /* CustomerMainTabBarController.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		A9FCDB3C2484464000D566E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9FCDB322483EF7900D566E0 /* Customer.swift */,
+				A9FCDB3A2484463200D566E0 /* Favourites.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9F096852469D5310006AD22 /* AppleMotorsCustomerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F096992469D5320006AD22 /* Build configuration list for PBXNativeTarget "AppleMotorsCustomerApp" */;
+			buildPhases = (
+				FEB8139A0F39C8B2CCE3501F /* [CP] Check Pods Manifest.lock */,
+				A9F096822469D5310006AD22 /* Sources */,
+				A9F096832469D5310006AD22 /* Frameworks */,
+				A9F096842469D5310006AD22 /* Resources */,
+				E1629427C8897B3F183DD66D /* [CP] Embed Pods Frameworks */,
+				9DD9E25CAD82BC6F73E73A79 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleMotorsCustomerApp;
+			productName = AppleMotorsCustomerApp;
+			productReference = A9F096862469D5310006AD22 /* AppleMotorsCustomerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9FA5A6C2463179D0015B705 /* Apple Motors Car Parts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FA5A81246317A10015B705 /* Build configuration list for PBXNativeTarget "Apple Motors Car Parts" */;
+			buildPhases = (
+				2BF1D5980C14840DEB613A7B /* [CP] Check Pods Manifest.lock */,
+				A9FA5A692463179D0015B705 /* Sources */,
+				A9FA5A6A2463179D0015B705 /* Frameworks */,
+				A9FA5A6B2463179D0015B705 /* Resources */,
+				25E2D9C5C7F7FBB93F2CDD0D /* [CP] Embed Pods Frameworks */,
+				BDB0206DE6E938DF55012888 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apple Motors Car Parts";
+			productName = AppleMotorsSellerApp;
+			productReference = A9FA5A6D2463179D0015B705 /* Apple Motors Car Parts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9FA5A652463179D0015B705 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Didar Bakhitzhanov";
+				TargetAttributes = {
+					A9F096852469D5310006AD22 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					A9FA5A6C2463179D0015B705 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A9FA5A682463179D0015B705 /* Build configuration list for PBXProject "Apple Motors Car Parts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9FA5A642463179D0015B705;
+			productRefGroup = A9FA5A6E2463179D0015B705 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9FA5A6C2463179D0015B705 /* Apple Motors Car Parts */,
+				A9F096852469D5310006AD22 /* AppleMotorsCustomerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9F096842469D5310006AD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D58F682482B90600105F68 /* DetailItem.storyboard in Resources */,
+				A9F096952469D5320006AD22 /* LaunchScreen.storyboard in Resources */,
+				A9F096922469D5320006AD22 /* Assets.xcassets in Resources */,
+				A9E500E124727AA900EBD0C2 /* CardViewController.xib in Resources */,
+				A9F096902469D5310006AD22 /* Main.storyboard in Resources */,
+				A9B5A0A324D9527D009D113C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FA5A6B2463179D0015B705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BC6231246B0FE40027D5FA /* DetailItem.storyboard in Resources */,
+				A97640C5246808650053FB48 /* TabBar.storyboard in Resources */,
+				A9FA5A7D246317A10015B705 /* LaunchScreen.storyboard in Resources */,
+				A9FA5A7A246317A10015B705 /* Assets.xcassets in Resources */,
+				A9FA5A782463179D0015B705 /* Main.storyboard in Resources */,
+				A95DF03624D9443100263C13 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25E2D9C5C7F7FBB93F2CDD0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apple Motors Car Parts/Pods-Apple Motors Car Parts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apple Motors Car Parts/Pods-Apple Motors Car Parts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Apple Motors Car Parts/Pods-Apple Motors Car Parts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF1D5980C14840DEB613A7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apple Motors Car Parts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD9E25CAD82BC6F73E73A79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleMotorsCustomerApp/Pods-AppleMotorsCustomerApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleMotorsCustomerApp/Pods-AppleMotorsCustomerApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleMotorsCustomerApp/Pods-AppleMotorsCustomerApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB0206DE6E938DF55012888 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apple Motors Car Parts/Pods-Apple Motors Car Parts-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apple Motors Car Parts/Pods-Apple Motors Car Parts-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Apple Motors Car Parts/Pods-Apple Motors Car Parts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1629427C8897B3F183DD66D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleMotorsCustomerApp/Pods-AppleMotorsCustomerApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleMotorsCustomerApp/Pods-AppleMotorsCustomerApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleMotorsCustomerApp/Pods-AppleMotorsCustomerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB8139A0F39C8B2CCE3501F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleMotorsCustomerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9F096822469D5310006AD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AEB927247E66330037A1CE /* MainPageState.swift in Sources */,
+				A9DC68192485BF42000240D2 /* ProductsServiceProtocol.swift in Sources */,
+				A9FCDB332483EF7900D566E0 /* Customer.swift in Sources */,
+				A9DC681F2485C1FC000240D2 /* ProductsViewModel.swift in Sources */,
+				A9D58F652482B5A500105F68 /* ItemTableViewCell.swift in Sources */,
+				A9C2D7D324813743002E0451 /* SettingsSlideUpController.swift in Sources */,
+				A9FCDB402484875B00D566E0 /* CustomerMainTabBarController.swift in Sources */,
+				A9FCDB2E2483E87100D566E0 /* FavouritesViewController.swift in Sources */,
+				A9D58F6024828CC900105F68 /* SellerInfoView.swift in Sources */,
+				A9C2D7CB248136FB002E0451 /* ConstantsTwo.swift in Sources */,
+				A9E500E524727B4B00EBD0C2 /* SellerInfoTab.swift in Sources */,
+				A9FBB77D246EBE0600616721 /* MapsNetworking.swift in Sources */,
+				A9DC681D2485C18C000240D2 /* Fire.swift in Sources */,
+				A9DC681B2485BFB7000240D2 /* ProductsService.swift in Sources */,
+				A9D58F672482B5E100105F68 /* Reachability.swift in Sources */,
+				A9A4C98B246ABBDB000E8635 /* MapsVC.swift in Sources */,
+				A9D58F5A24826C3B00105F68 /* Item.swift in Sources */,
+				A9D58F642482940200105F68 /* SearchViewController.swift in Sources */,
+				A9F0969B2469D6640006AD22 /* SellerInfoTableViewController.swift in Sources */,
+				A9C2D7CD2481370D002E0451 /* UIColorExtension.swift in Sources */,
+				A9452E76247E97DE00C19920 /* AnnotationPin.swift in Sources */,
+				A9A4C989246AB260000E8635 /* FirebaseCollectionReference.swift in Sources */,
+				A9C2D7CF2481372C002E0451 /* SlideUpSettings.swift in Sources */,
+				A9F096892469D5310006AD22 /* AppDelegate.swift in Sources */,
+				A9D58F692482B94900105F68 /* ItemViewController.swift in Sources */,
+				A9452E74247E963C00C19920 /* UserInfoTab.swift in Sources */,
+				A9452E7B247EB39A00C19920 /* ScrollToSelectedUserProtocol + Extension.swift in Sources */,
+				A9A4C985246A903F000E8635 /* Seller.swift in Sources */,
+				A9C2D7C9248136D7002E0451 /* ThumbSlidingView.swift in Sources */,
+				A9FCDB352484047500D566E0 /* FinishRegistrationViewController.swift in Sources */,
+				A9D58F6A2482F69B00105F68 /* ImageCollectionViewCell.swift in Sources */,
+				A9DC68172485BD79000240D2 /* ProductModel.swift in Sources */,
+				A9FCDB39248404D500D566E0 /* EditProfileViewController.swift in Sources */,
+				A9FCDB37248404BD00D566E0 /* AuthorizationViewController.swift in Sources */,
+				A9FCDB302483E8C000D566E0 /* ProfileTableViewController.swift in Sources */,
+				A9DC68212485C668000240D2 /* ProductsTableViewController.swift in Sources */,
+				A9452E79247E98F700C19920 /* MGLMapDelegate+ Extension.swift in Sources */,
+				A9D58F5E2482806F00105F68 /* SellerInfoCell.swift in Sources */,
+				A9FCDB3B2484463200D566E0 /* Favourites.swift in Sources */,
+				A9DC68232485CB13000240D2 /* ProductTableViewCell.swift in Sources */,
+				A9D58F6D24830DA700105F68 /* AlgoliaService.swift in Sources */,
+				A9D58F662482B5CA00105F68 /* Downloader.swift in Sources */,
+				A9F0968B2469D5310006AD22 /* SceneDelegate.swift in Sources */,
+				A9C2D7D124813737002E0451 /* AccountItemCell.swift in Sources */,
+				A9A4C987246A9120000E8635 /* SellerInfoTableViewCell.swift in Sources */,
+				A9452E7D247EB4C800C19920 /* FriendAnnotationView.swift in Sources */,
+				A9A4C988246AB249000E8635 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FA5A692463179D0015B705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FBADCB2464B30200BE48CD /* LoginViewController.swift in Sources */,
+				A9FBADC3246466D400BE48CD /* FirebaseCollectionReference.swift in Sources */,
+				A9D58F6C2483062F00105F68 /* AlgoliaService.swift in Sources */,
+				A9BC6229246B0ECB0027D5FA /* ItemsTableViewController.swift in Sources */,
+				A9BC6237246B10870027D5FA /* ImageCollectionViewCell.swift in Sources */,
+				A9FCDB3E248484F700D566E0 /* Favourites.swift in Sources */,
+				A97640C32468078D0053FB48 /* MainTabBarController.swift in Sources */,
+				A9BC622B246B0F5F0027D5FA /* ItemTableViewCell.swift in Sources */,
+				A9FBADC124644A6100BE48CD /* Constants.swift in Sources */,
+				A94260F6246C140A00AFE93F /* SceneDelegate.swift in Sources */,
+				A9FBADBF2464492E00BE48CD /* Seller.swift in Sources */,
+				A9FBADC524649F2A00BE48CD /* RegistrationViewController.swift in Sources */,
+				A9A4C992246ADEB4000E8635 /* CategoryCollectionViewController.swift in Sources */,
+				A97640C7246812C80053FB48 /* ProfileTableViewController.swift in Sources */,
+				A9BC622D246B0F9A0027D5FA /* Downloader.swift in Sources */,
+				A9A4C98F246ADD3F000E8635 /* Item.swift in Sources */,
+				A94260F4246BFCAF00AFE93F /* WelcomeViewController.swift in Sources */,
+				A9FA5A712463179D0015B705 /* AppDelegate.swift in Sources */,
+				A9BC6233246B101F0027D5FA /* AddItemViewController.swift in Sources */,
+				A9BC622F246B0FB20027D5FA /* Reachability.swift in Sources */,
+				A9FBADC724649F5C00BE48CD /* MapViewController.swift in Sources */,
+				A9FCDB3D248484DD00D566E0 /* Customer.swift in Sources */,
+				A9BC6235246B10590027D5FA /* ItemViewController.swift in Sources */,
+				A9A4C994246ADED1000E8635 /* CategoryCollectionViewCell.swift in Sources */,
+				A9A4C98D246ADD31000E8635 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9F0968E2469D5310006AD22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F0968F2469D5310006AD22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9F096932469D5320006AD22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F096942469D5320006AD22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A9FA5A762463179D0015B705 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FA5A772463179D0015B705 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9FA5A7B246317A10015B705 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FA5A7C246317A10015B705 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9F096972469D5320006AD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63057C74EA5E7A2E9CBCFB52 /* Pods-AppleMotorsCustomerApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 6SR4KVZ2A5;
+				INFOPLIST_FILE = AppleMotorsCustomerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.didar.snow.AppleMotorsCustomerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A9F096982469D5320006AD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A42A9A1CB88031CF55159E6 /* Pods-AppleMotorsCustomerApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 6SR4KVZ2A5;
+				INFOPLIST_FILE = AppleMotorsCustomerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.didar.snow.AppleMotorsCustomerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A9FA5A7F246317A10015B705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9FA5A80246317A10015B705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9FA5A82246317A10015B705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE2627541D8C3BF3C4FE51B /* Pods-Apple Motors Car Parts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleMotorsSellerApp/AppleMotorsSellerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 6SR4KVZ2A5;
+				INFOPLIST_FILE = AppleMotorsSellerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.didar.snow.AppleMotorsSellerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A9FA5A83246317A10015B705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD3ADA5C3733EC2F7583FFD /* Pods-Apple Motors Car Parts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleMotorsSellerApp/AppleMotorsSellerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 6SR4KVZ2A5;
+				INFOPLIST_FILE = AppleMotorsSellerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.didar.snow.AppleMotorsSellerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9F096992469D5320006AD22 /* Build configuration list for PBXNativeTarget "AppleMotorsCustomerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F096972469D5320006AD22 /* Debug */,
+				A9F096982469D5320006AD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FA5A682463179D0015B705 /* Build configuration list for PBXProject "Apple Motors Car Parts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FA5A7F246317A10015B705 /* Debug */,
+				A9FA5A80246317A10015B705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FA5A81246317A10015B705 /* Build configuration list for PBXNativeTarget "Apple Motors Car Parts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FA5A82246317A10015B705 /* Debug */,
+				A9FA5A83246317A10015B705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9FA5A652463179D0015B705 /* Project object */;
+}
